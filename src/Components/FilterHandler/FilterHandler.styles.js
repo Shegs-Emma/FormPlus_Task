@@ -18,7 +18,7 @@ const FilterContainer = styled.div`
   }
 
   @media screen and (min-width: 52em) {
-    width: 90%;
+    width: 95%;
     margin: 4rem 0 3rem 2rem;
     display: flex;
     flex-direction: row;

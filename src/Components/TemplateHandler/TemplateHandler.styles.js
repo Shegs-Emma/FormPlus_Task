@@ -13,7 +13,7 @@ const NotifyHead = styled.div`
   border-radius: 2px;
 
   @media screen and (min-width: 52em) {
-    width: 95%;
+    width: 97%;
   }
 
   @media (min-width: 48em) and (max-width: 51.938em) {
