@@ -1,0 +1,75 @@
+.Pagination {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: 3rem auto;
+}
+
+.Button {
+  margin: 5px;
+  padding: 7px;
+  width: 3.5rem;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.Button:active {
+  border: none;
+  outline: none;
+}
+
+.Disabled {
+  color: #e2e2ea;
+  margin: 5px;
+  padding: 7px;
+  width: 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.Middle {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
+.CurrentPage {
+  width: 30px;
+  height: 1.875rem;
+
+  background: #ffffff;
+  border: 0.0625rem solid #3f3f3f;
+  border-radius: 0.1875rem;
+}
+
+@media screen and (min-width: 52em) {
+  .Middle {
+    display: flex;
+    justify-content: space-between;
+    width: 10%;
+  }
+}
+
+.Current {
+  position: relative;
+  left: 0.5rem;
+  top: 0.3rem;
+}
+
+@media screen and (min-width: 52em) {
+  .Current {
+    position: relative;
+    top: 0.3rem;
+    left: 0.5rem;
+  }
+}
+
+.Chev {
+  margin-top: 0.1rem;
+}
