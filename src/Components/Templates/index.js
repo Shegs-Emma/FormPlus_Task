@@ -42,7 +42,7 @@ const Templates = ({
       .filter((temp) => temp.category.includes(selectedCat))
       .map((item) => item);
 
-    onPageChange(Math.ceil(modifiedUsers.length / USER_PER_PAGE));
+    onPageChange(Math.ceil(modifiedUsers?.length / USER_PER_PAGE));
   }
 
   if (searchItem) {
@@ -51,13 +51,13 @@ const Templates = ({
       .map((item) => item);
 
     setTimeout(() => {
-      onPageChange(Math.ceil(modifiedUsers.length / USER_PER_PAGE));
+      onPageChange(Math.ceil(modifiedUsers?.length / USER_PER_PAGE));
     }, 5000);
   }
 
   const startIndex = (page - 1) * USER_PER_PAGE;
 
-  const selectedTemplate = modifiedUsers.slice(
+  const selectedTemplate = modifiedUsers?.slice(
     startIndex,
     startIndex + USER_PER_PAGE
   );

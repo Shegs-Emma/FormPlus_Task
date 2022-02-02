@@ -126,7 +126,7 @@ const TemplateHandler = ({
               ? `${selectedCategory} Templates`
               : "All Templates"}
           </P>
-          <P right>{templates.length} templates</P>
+          <P right>{templates?.length} templates</P>
         </TemplateHead>
 
         <TemplateBody>{templatesList}</TemplateBody>
